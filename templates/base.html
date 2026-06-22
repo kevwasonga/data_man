@@ -19,11 +19,7 @@
   <div id="preloader">
     <div class="preloader-inner">
       <div class="preloader-logo">
-        <svg class="preloader-svg" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
-          <text x="2" y="68" class="pl-text-big">D</text>
-          <text x="52" y="68" class="pl-text-small">ATA</text>
-          <line x1="0" y1="75" x2="120" y2="75" class="pl-line" stroke-dasharray="120" stroke-dashoffset="120"/>
-        </svg>
+        <img src="{{ url_for('static', filename='rodrologo.png') }}" alt="Rodricks Analytics Logo" class="preloader-logo-image">
       </div>
       <div class="preloader-scan"></div>
       <p class="preloader-status"><span class="preloader-blink">_</span> Initializing analytics engine...</p>
