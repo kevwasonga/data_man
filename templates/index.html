@@ -178,25 +178,7 @@
         <div class="about-card-bg"></div>
         <div class="about-card-content">
           <div class="about-logo-hero">
-            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="about-svg">
-              <!-- Giant D with data visualization -->
-              <rect x="15" y="18" width="12" height="72" rx="2" class="as-bar as-bar-1"/>
-              <rect x="15" y="18" width="40" height="10" rx="2" class="as-bar as-bar-2"/>
-              <rect x="15" y="80" width="40" height="10" rx="2" class="as-bar as-bar-3"/>
-              <path d="M55 28 Q88 55 55 80" stroke-width="12" fill="none" stroke-linecap="round" class="as-arc"/>
-              <!-- Data scatter plot (right side) -->
-              <circle cx="90" cy="22" r="4" class="as-dot sd1"/>
-              <circle cx="102" cy="35" r="3" class="as-dot sd2"/>
-              <circle cx="96" cy="48" r="5" class="as-dot sd3"/>
-              <circle cx="108" cy="58" r="3" class="as-dot sd4"/>
-              <circle cx="94" cy="70" r="4" class="as-dot sd5"/>
-              <circle cx="104" cy="82" r="3" class="as-dot sd6"/>
-              <line x1="90" y1="22" x2="102" y2="35" class="as-line"/>
-              <line x1="102" y1="35" x2="96" y2="48" class="as-line"/>
-              <line x1="96" y1="48" x2="108" y2="58" class="as-line"/>
-              <line x1="108" y1="58" x2="94" y2="70" class="as-line"/>
-              <line x1="94" y1="70" x2="104" y2="82" class="as-line"/>
-            </svg>
+            <img src="{{ url_for('static', filename='rodrologo.png') }}" alt="Rodricks Analytics Logo" class="about-logo-image">
           </div>
           <div class="about-card-text">
             <span class="about-est">Est. 2022</span>
